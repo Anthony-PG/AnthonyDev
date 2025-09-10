@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(135deg, #474b4e, #3f4fa7);
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    line-height: 1.1;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.main-menu {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.menu {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    background-color:azure;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.menu li a {
+    display: block;
+    padding: 16px 32px;
+    color: #0074D9;
+    background: fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: background 0.3s, color 0.3s;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 10);
+
+}
+
+.menu li a:hover {
+    background-color: #0074D9;
+    color: fff;
+
+}
