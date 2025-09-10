@@ -76,31 +76,38 @@ body {
 .main-menu {
     justify-content: center;
     align-items: center;
-}/* Small screens (portrait phones) */
+}
+
 @media (max-width: 480px) {
     .Title h1 {
-        font-size: 2rem;   /* shrink title */
+        font-size: 2rem;
         margin-top: 20px;
         margin-bottom: 15px;
     }
 
     .menu {
-        flex-direction: column; /* stack menu vertically */
-        gap: 10px;             /* smaller gap */
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 15px;
         padding: 5px;
     }
 
     .menu li a {
-        padding: 10px 15px;    /* shrink buttons */
-        font-size: 1rem;       /* smaller text */
+        padding: 10px 15px;
+        font-size: 1rem;
     }
 
     .main-menu {
         justify-content: center;
         align-items: center;
     }
+
+    .menu::-webkit-scrollbar {
+        display: none;
+    }
+    .menu {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 }
-
-
-
 
