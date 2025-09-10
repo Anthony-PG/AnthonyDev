@@ -78,36 +78,3 @@ body {
     align-items: center;
 }
 
-@media (max-width: 480px) {
-    .Title h1 {
-        font-size: 2rem;
-        margin-top: 20px;
-        margin-bottom: 15px;
-    }
-
-    .menu {
-        flex-direction: row;
-        overflow-x: auto;
-        gap: 15px;
-        padding: 5px;
-    }
-
-    .menu li a {
-        padding: 10px 15px;
-        font-size: 1rem;
-    }
-
-    .main-menu {
-        justify-content: center;
-        align-items: center;
-    }
-
-    .menu::-webkit-scrollbar {
-        display: none;
-    }
-    .menu {
-        -ms-overflow-style: none;
-        scrollbar-width: none;
-    }
-}
-
