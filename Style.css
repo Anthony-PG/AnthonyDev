@@ -28,7 +28,7 @@ body {
     padding: 10px;
     list-style: none;
     display: flex;
-    flex-direction: column; /* always stacked */
+    flex-direction: column;
     gap: 15px;
     background-color: azure;
     border-radius: 12px;
@@ -39,19 +39,19 @@ body {
     display: block;
     padding: 16px 32px;
     color: #0074D9;
-    background: fff;
+    background: #fff;
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
     border-radius: 8px;
     transition: background 0.3s, color 0.3s;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 10);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .menu li a:hover {
     background-color: #0074D9;
-    color: fff;
+    color: #fff;
 }
 
 @media (max-width: 768px) {
@@ -61,14 +61,8 @@ body {
         margin-bottom: 20px; 
     }
 
-    .menu li a {
-        padding: 12px 20px;
-        font-size: 1.1rem;
-    }
-
     .main-menu {
         justify-content: center;
         align-items: center;
     }
 }
-
