@@ -54,15 +54,3 @@ body {
     color: #fff;
 }
 
-@media (max-width: 768px) {
-    .Title h1 {
-        font-size: 2.5rem;
-        margin-top: 30px;
-        margin-bottom: 20px; 
-    }
-
-    .main-menu {
-        justify-content: center;
-        align-items: center;
-    }
-}
