@@ -1,0 +1,93 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #474b4e, #3f4fa7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.top-boxes {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap; /* Makes it responsive on smaller screens */
+}
+
+.info-box {
+  background: #fff;
+  width: 350px;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  padding: 32px 40px;
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-box h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 8px 0;
+}
+
+.info-box li {
+  margin-bottom: 6px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.info-box p {
+  font-size: 1rem;
+  color: #4b4e54;
+  margin-top: 12px;
+}
+
+.socials-box .social-icons {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+  background: #e4e7ef;
+  transition: background 0.3s, transform 0.3s;
+  object-fit: cover;
+  border: 2px solid #e4e7ef;
+  cursor: pointer;
+}
+
+.social-icons a:hover .icon,
+.social-icons a:active .icon {
+  background: #3f4fa7;
+  border-color: #3f4fa7;
+  transform: scale(1.1) rotate(-5deg);
+}
