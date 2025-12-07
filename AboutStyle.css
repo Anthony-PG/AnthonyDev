@@ -14,7 +14,7 @@ header {
 .title {
     font-size: 3rem;
     font-weight: 700;
-    color: #111111;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -126,3 +126,4 @@ header {
     opacity: 1;
     transform: scale(1.08);
 }
+
