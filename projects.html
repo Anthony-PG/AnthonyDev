@@ -3,54 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Development</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        .box {
-            text-align: center;
-            background-color: #fff;
-            padding: 20px 40px;
-            border-radius: 20px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .box h1 {
-            font-size: 2rem;
-            margin-bottom: 10px;
-        }
-        .box p {
-            font-size: 1rem;
-            color: #555;
-            margin-bottom: 20px;
-        }
-        .go-back {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0074D9;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: bold;
-            transition: background 0.3s;
-        }
-        .go-back:hover {
-            background-color: #005fa3;
-        }
-    </style>
+    <title>AnthonyPG – Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ProjectsStyle.css">
 </head>
 <body>
-    <div class="box">
-        <h1>Currently Under Development</h1>
-        <p>Come back every weekend for updates!</p>
-        <a href="index.html" class="go-back">🔙 Go Back</a>
-    </div>
+
+    <header>
+        <h1 class="title">Projects</h1>
+    </header>
+
+    <nav class="main-menu">
+        <ul class="menu">
+            <li><a href="index.html">🏠 Home</a></li>
+            <li><a href="projects.html" class="active">📁 Projects</a></li>
+            <li><a href="about.html">👤 About Me</a></li>
+        </ul>
+    </nav>
+
+    <main class="projects">
+        <h2 class="projects-heading">Selected Work</h2>
+        <section class="projects-grid">
+
+            <article class="project-card">
+                <h3>UCAS Portfolio</h3>
+                <a href="assets/ucas-portfolio.pdf" target="_blank" class="project-link">View PDF</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Study Time Tracker</h3>
+                <a href="#" class="project-link">View Project</a>
+            </article>
+
+            <article class="project-card">
+                <h3>Kasia Kidz Boutique Design Project</h3>
+                <a href="#" class="project-link">View Project</a>
+            </article>
+
+        </section>
+    </main>
+
 </body>
 </html>
