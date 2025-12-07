@@ -14,7 +14,7 @@ header {
 .title {
     font-size: 3rem;
     font-weight: 700;
-    color: #111111;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -102,3 +102,4 @@ header {
 .project-link:hover {
     background-color: #425E69;
 }
+
